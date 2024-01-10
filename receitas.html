@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="formatos.css">
+    <link rel="stylesheet" href="receitas.css">
+    <title>Receita do Alex</title>
+</head>
+
+<body style=" display:flex;  justify-content:space-between;
+flex-direction: column; background-color: rgb(233, 150, 122);">
+    <header class="navigationContainer bg-dark text-light">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " href="./home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./receitas.html">Receitas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cadastro.html">Cadastro</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mt-1">
+        <section class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mx-1  ">
+            <div class="col ">
+                <div class="card w-auto shadow">
+                    <img src="./img/bolo-de-cenoura.jpg" class="card-img-top" alt="Bolo De Cenoura" height="250">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Bolo de Cenoura</h5>
+                        <hr>
+                        <p class="card-text">Ingredientes:</p>
+                        <ul class="card-text">
+                            <li>3 ovos</li>
+                            <li>4 cenouras grandes</li>
+                            <li>1 colher de fermento</li>
+                            <li>3 xícaras de farinha de trigo</li>
+                            <li>2 xícaras (400 g) de açúcar</li>
+                            <li>1 xícara (250 ml) de óleo</li>
+                        </ul>
+                        <hr>
+                        <p class="card-text">Preparo:</p>
+                        <p class="card-text flex-grow-1">Bata o óleo, as cenouras e os ovos no liquidificador.<br>
+                            Adicione o açúcar e depois a farinha e o fermento. Bata tudo no liquidificador ou bata
+                            primeiro os
+                            líquidos e depois junte a farinha, o açúcar e o fermento.<br>
+                            Leve ao forno a 180º, numa forma untada e enfarinhada, por 45 minutos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card w-auto shadow">
+                    <img src="./img/pao-de-lo.jpg" class="card-img-top" alt="Pão de Ló" height="250">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Pão de Ló</h5>
+                        <hr>
+                        <p class="card-text">Ingredientes:</p>
+                        <ul class="card-text">
+                            <li>6 ovos</li>
+                            <li>5 colheres de sopa de farinha de trigo</li>
+                            <li>6 colheres de sopa de açúcar</li>
+                            <li>1 colher de sopa rasa de fermento em pó</li>
+                        </ul>
+                        <hr>
+                        <p class="card-text">Preparo:</p>
+                        <p class="card-text flex-grow-1">Separar as claras das gemas. Bater as claras até ficar em ponto
+                            de suspiro, acrescentar uma a uma as
+                            gemas, batendo sempre, ainda com a batedeira ligada acrescentar aos poucos o açúcar
+                            peneirado.
+                            Peneirar muito bem a farinha. Acrescentar à massa com a batedeira desligada, aos poucos,
+                            delicadamente, fazendo movimentos de baixo para cima. Por último, acrescentar o
+                            fermento.<br>Assar
+                            em forno médio.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col ">
+                <div class="card w-auto shadow">
+                    <img src="./img/bolinho-de-pure-de-batata.jpg" class="card-img-top" alt="Bolinhos de Purê de Batata"
+                        height="250">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Bolinhos de Purê de Batata</h5>
+                        <hr>
+                        <p class="card-text">Ingredientes:</p>
+                        <ul class="card-text">
+                            <li>500g de batatas grandes</li>
+                            <li>1/2 xícara (chá) de farinha de rosca</li>
+                            <li>1 colher (sopa) de manteiga</li>
+                            <li>1 ovo batido</li>
+                            <li>sal, pimenta-do-reino e orégano a gosto</li>
+                            <li>óleo para fritar</li>
+                        </ul>
+                        <hr>
+                        <p class="card-text">Preparo:</p>
+                        <p class="card-text flex-grow-1">Higienize e descasque as batatas, cozinhando-as em água com sal
+                            até ficarem macias.<br> Escorra e faça um
+                            purê, adicionando orégano, pimenta-do-reino e manteiga.<br> Modele bolinhas com o purê,
+                            passe em ovo
+                            batido e farinha de rosca. Frite em óleo quente até dourar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class=" text-center mt-2" style="background-color: black; color:aliceblue;">
+        <p>©Alex Allan 2024</p>
+    </footer>
+</body>
+
+</html>
