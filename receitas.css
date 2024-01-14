@@ -9,6 +9,7 @@
     flex-grow: 1;
     flex-basis: 200;
     box-shadow: black -2px 1px 10px;
+    scroll-snap-align: start; 
 }
 
 @media (max-width:600px) {
